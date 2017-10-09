@@ -20,4 +20,12 @@
   #endif
 #endif
 
+template <typename T> void normal(const T *a, const T *b, T *c, const int size);
+template <typename T> void cache(const T *a, const T *b, T *c, const int size);
+template <typename T> void vectorize(const T * a, const T *b, T *c, const int size);
+void avx(const double *a, const double *b, double *c, const int size);
+void avx(const float *a, const float *b, float *c, const int size);
+template <typename T> void block(const T *a, const T *b, T *c, const int size);
+template <typename T> void address(const T *a, const T *b, T *c, const int size);
+
 #endif // _H_MATRIX_MALUTIPLY_
