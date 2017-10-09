@@ -10,5 +10,7 @@ These code is for matrix multiply.
 
 # TO DO
 generalization some code.
+
 add Strassen algorithm
+
 add karatsuba algorithm
